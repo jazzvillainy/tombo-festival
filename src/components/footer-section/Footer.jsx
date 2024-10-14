@@ -1,17 +1,20 @@
-import React from 'react'
+import React from 'react';
+import logo from '../../assets/images/Tombo-Fest-Logo.png';
 
 const Footer = () => {
   return (
     <footer>
         <div className='flex justify-between px-24 h-[200px]'>
           {/* logo */}
-          <div>Logo goes HERE</div>
+          <div>
+            <img src={logo} alt="Tombo Festival 2024" className='h-24 object-cover'/>
+          </div>
           {/* social links */}
           <div className='flex gap-x-12'>
-            <a href="">Instagram</a>
-            <a href="">Facebook</a>
-            <a href="">WhatsApp</a>
-            <a href="">Email</a>
+            <a href="" className='hover:text-[#236e45]'>Instagram</a>
+            <a href="" className='hover:text-[#236e45]'>Facebook</a>
+            <a href="" className='hover:text-[#236e45]'>WhatsApp</a>
+            <a href="" className='hover:text-[#236e45]'>Email</a>
           </div>
           </div>
         {/* copyright */}
