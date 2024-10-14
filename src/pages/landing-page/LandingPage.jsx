@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import FestivalHighlights from '../components/festival-highlights/FestivalHighlights';
+
 
 const LandingPage = () => {
   return (
     <div className=''>
-      this is supposed to be the landing page
+      <FestivalHighlights/>
     </div>
   )
 }
