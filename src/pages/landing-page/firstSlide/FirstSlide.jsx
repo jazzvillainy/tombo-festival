@@ -30,7 +30,7 @@ const FirstSlide = () => {
           {/* Buy ticket and Be a vendor Buttons */}
           <div className='flex gap-[28px] my-5'>
             <Button content={'Buy Ticket'} link={'/tickets-info'} BtnStyle={'text-sm'} />
-            <Button content={'Be a Vendor '} link={'/register-to-be-a-vendor'} BtnStyle={'bg-white text-[#236E45] shadow text-sm w-[150px]'} image={Frame}/>
+            <Button content={'Be a Vendor '} link={'/register-to-be-a-vendor'} BtnStyle={'bg-white text-[#236E45] shadow text-sm w-[160px] space-x-2'} image={Frame}/>
           </div>
 
           {/* Coount Down */}
