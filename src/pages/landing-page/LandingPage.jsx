@@ -1,10 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import FirstSlide from './firstSlide/FirstSlide';
+
 
 const LandingPage = () => {
   return (
     <div className=''>
-      this is supposed to be the landing page
+      {/* This is the first slide */}
+      <div>
+        <FirstSlide />
+      </div>
     </div>
   )
 }
