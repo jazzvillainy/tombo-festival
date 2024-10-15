@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import FirstSlide from './firstSlide/FirstSlide';
 import SecondSlide from './SecondSlide/SecondSlide';
-
 import Highlights from './festival-highlights/Highlights';
 import TicketInfo from './ticket-informations/TicketInfo';
 

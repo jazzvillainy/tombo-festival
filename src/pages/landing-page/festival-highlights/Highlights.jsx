@@ -3,13 +3,13 @@ import React from 'react';
 import { HiOutlineSparkles } from "react-icons/hi2";
 import { GiSparkles } from "react-icons/gi";
 // import images
-import peopleAtConcert from '../../assets/images/Palm Tombo2.png';
-import boleFish from '../../assets/images/Palm Tombo3.png';
-import manDrumming from '../../assets/images/pexels-yankrukov-9010079.jpg';
+import peopleAtConcert from '../../../assets/images/Palm Tombo2.png';
+import boleFish from '../../../assets/images/Palm Tombo3.png';
+import manDrumming from '../../../assets/images/pexels-yankrukov-9010079.jpg';
 
 const Highlights = () => {
   return (
-    <div className='flex mx-auto bg-[#fcfcfc] py-2'>
+    <div className='flex mx-auto py-2 my-20'>
       {/* texts */}
       <div className='p-20 w-full flex flex-col gap-10'>
         {/* header */}
