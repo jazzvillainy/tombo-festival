@@ -16,9 +16,9 @@ const TicketInfo = () => {
         <h1>ticket informations</h1>
       </div>
       {/* body */}
-      <div className='flex ml-28 mr-20 py-2 gap-x-16'>
+      <div className='flex flex-col md:flex-row ml-28 mr-20 py-2 gap-x-16'>
         {/* events info and map */}
-        <div className='w-full flex flex-col gap-14'>
+        <div className='w-full flex flex-col gap-24'>
           {/* event info */}
           <div className='flex flex-col gap-4'>
             <h3 className='font-semibold text-lg mb-2'>Event Info</h3>
@@ -38,62 +38,62 @@ const TicketInfo = () => {
           {/* map */}
           <div className='flex flex-col gap-5'>
             <h3 className='font-semibold text-lg mb-2'>Location on map</h3>
-            <div className='ml-5'>
+            <div className='ml-3'>
               <Map/>
             </div>
           </div>
         </div>
         {/* tickets info */}
         <div className='w-full'>
-          <div className='flex flex-col gap-3'>
-            <h3 className='font-semibold text-lg mb-2'>Purchase Ticket</h3>
-            <div className='flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-2 rounded-lg hover:cursor-pointer'>
+          <div className='flex flex-col gap-2.5'>
+            <h3 className='font-semibold text-lg'>Purchase Ticket</h3>
+            <div className='flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-3 rounded-lg hover:cursor-pointer'>
               {/* package */}
               <div>
                 <p>Early Bird</p>
                 <p>₦ 4,000</p>
               </div>
               {/* image */}
-              <img src={flyer} alt="Early Bird Ticket" className='h-[75px]' />
+              <img src={flyer} alt="Early Bird Ticket" className='h-[70px] rounded-sm' />
             </div>
-            <div className='flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-2 rounded-lg hover:cursor-pointer'>
+            <div className='flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-3 rounded-lg hover:cursor-pointer'>
               {/* package */}
               <div>
                 <p>Regular</p>
                 <p>₦ 5,000</p>
               </div>
               {/* image */}
-              <img src={flyer} alt="Early Bird Ticket" className='h-[75px]' />
+              <img src={flyer} alt="Early Bird Ticket" className='h-[70px] rounded-sm' />
             </div>
-            <div className='flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-2 rounded-lg hover:cursor-pointer'>
+            <div className='flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-3 rounded-lg hover:cursor-pointer'>
               {/* package */}
               <div>
                 <p>VIP</p>
                 <p>₦ 25,000</p>
               </div>
               {/* image */}
-              <img src={flyer} alt="Early Bird Ticket" className='h-[75px]' />
+              <img src={flyer} alt="Early Bird Ticket" className='h-[70px] rounded-sm' />
             </div>
-            <div className='flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-2 rounded-lg hover:cursor-pointer'>
+            <div className='flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-3 rounded-lg hover:cursor-pointer'>
               {/* package */}
               <div>
                 <p>Golden Hut</p>
                 <p>₦ 200,000</p>
               </div>
               {/* image */}
-              <img src={flyer} alt="Early Bird Ticket" className='h-[75px]' />
+              <img src={flyer} alt="Early Bird Ticket" className='h-[70px] rounded-sm' />
             </div>
-            <div className='flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-2 rounded-lg hover:cursor-pointer'>
+            <div className='flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-3 rounded-lg hover:cursor-pointer'>
               {/* package */}
               <div>
                 <p>Exclusive Hut</p>
                 <p>₦ 500,000</p>
               </div>
               {/* image */}
-              <img src={flyer} alt="Early Bird Ticket" className='h-[75px]' />
+              <img src={flyer} alt="Early Bird Ticket" className='h-[70px] rounded-sm' />
             </div>
           </div>
-          <Button content={'Buy Ticket'}/>
+          <button className='bg-[#236e45] text-white h-12 w-full m-2 px-5 rounded-full capitalize flex items-center justify-center font-semibold mt-5'>Buy Ticket</button>
         </div>
       </div>
     </div>
