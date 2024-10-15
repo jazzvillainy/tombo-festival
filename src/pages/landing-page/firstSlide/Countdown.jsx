@@ -20,7 +20,7 @@ const CountDown = () => {
   return (
     <div className=''> 
 
-      <p className='flex gap-10 '>
+      <p className='flex gap-[32px] '>
         <span className='bg-gradient-to-b from-white to-gray-200 rounded-xl font-bold w-[100px] h-[100px] border flex flex-col justify-center items-center'> <p>{days}</p>
         <p>Days</p> </span>
         <span className='bg-gradient-to-b from-white to-gray-200 rounded-xl font-bold w-[100px] h-[100px] border flex flex-col justify-center items-center'> <p>{hours}</p>

@@ -5,7 +5,7 @@ import logo from '../../assets/images/TomboLogo.png';
 
 const Navbar = () => {
   return (
-    <nav className='flex justify-between px-24 py-5 bg-white sticky top-0 '>
+    <nav className='flex justify-between mx-[120px] py-5 bg-white sticky top-0 '>
       {/* section links */}
       <div className='flex gap-x-12 justify-center items-center'>
         <Link to={'/'} className='hover:text-[#236e45]'>Home</Link>
