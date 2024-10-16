@@ -3,7 +3,7 @@ import React from 'react';
 import { HiOutlineSparkles } from "react-icons/hi2";
 import { GiSparkles } from "react-icons/gi";
 // import images
-import peopleAtConcert from '../../../assets/images/Palm Tombo2.png';
+import peopleAtConcert from './assets/Palm Tombo2.png';
 import boleFish from '../../../assets/images/Palm Tombo3.png';
 import manDrumming from '../../../assets/images/pexels-yankrukov-9010079.jpg';
 
