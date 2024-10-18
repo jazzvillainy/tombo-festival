@@ -4,7 +4,7 @@ import { HiOutlineSparkles } from 'react-icons/hi2';
 import { CiCalendar, CiClock2, CiLocationOn } from "react-icons/ci";
 import Map from './Map';
 // import flyer
-import flyer from '../../../assets/images/tombo-fest-flyer.jpg';
+import flyer from '../../../../dist/assets/tombo-fest-flyer-C_yc2ArG.jpg';
 
 const TicketInfo = () => {
   // state for tickets
