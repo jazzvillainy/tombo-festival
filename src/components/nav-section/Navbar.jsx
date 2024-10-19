@@ -1,15 +1,13 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import Button from '../Button';
 import { Link } from 'react-router-dom';
-import logo from '../../../dist/assets/TomboLogo-NfsZQvlf.png';
-// import icon
-import { RxHamburgerMenu } from "react-icons/rx";
+import logo from '../../assets/images/TomboLogo.png';
 // import menu context
 import { MenuContext } from '../../context/MenuContext';
 
 const Navbar = () => {
   // getting the menu context
-  const {isClicked, setIsClicked} = useContext(MenuContext);
+  const {isClicked, setIsClicked, isActive, toggleMenu} = useContext(MenuContext);
 
   return (
     <nav className='flex justify-between s:px-0 sm:px-0 md:px-0 lg:px-[120px] xl:px-[120px] py-5 bg-[#FCFDFC] sticky top-0 z-20'>
@@ -28,8 +26,10 @@ const Navbar = () => {
       <div className='flex items-center s:hidden sm:hidden md:hidden lg:block xl:block'>
         <Button content={'Buy Ticket'} link={'/tickets-info'}/>
       </div>
-      <div onClick={() => setIsClicked(!isClicked)} className='s:block sm:block md:block lg:hidden xl:hidden hover:cursor-pointer'>
-        {isClicked ? <RxHamburgerMenu className='transition-all rotate-90 duration-200 text-3xl mr-8'/> : <RxHamburgerMenu className='transition-all duration-200 rotate-0 text-3xl mr-8'/>}
+      <div onClick={() => {setIsClicked(!isClicked), toggleMenu()}} className='s:flex sm:flex md:flex flex-col justify-center items-center lg:hidden xl:hidden cursor-pointer gap-[5px] mr-8'>
+        <div className={`h-[3px] w-7 bg-black transition-transform duration-200 rounded-full ${isActive ? 'rotate-45 translate-y-2' : ''}`} />
+        <div className={`h-[3px] w-7 bg-black transition-opacity duration-200 rounded-full ${isActive ? 'opacity-0' : 'opacity-100'}`} />
+        <div className={`h-[3px] w-7 bg-black transition-transform duration-200 rounded-full ${isActive ? '-rotate-45 -translate-y-2' : ''}`} />
       </div>
     </nav>
   )

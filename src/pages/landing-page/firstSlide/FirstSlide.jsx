@@ -1,12 +1,12 @@
 import React from 'react';
-import PalmTombo1 from '../../../../dist/assets/Palm Tombo1-Dz9cBsyf.png';
+import PalmTombo1 from '../../../assets/images/Palm Tombo1.png';
 import Button from '../../../components/Button';
 import Frame from '../../../assets/images/Frame.png';
 import CountDown from './Countdown';
 import CokeLogo from '../../../assets/images/CokeLogo.png';
 import McDonLogo from '../../../assets/images/McDonLogo.png';
 import KFCLogo from '../../../assets/images/KFCLogo.png';
-import ShopriteLogo from '../../../../dist/assets/ShopriteLogo-BKELNKIF.png';
+import ShopriteLogo from '../../../assets/images/ShopriteLogo.png';
 import PaystackLogo from '../../../assets/images/PaystackLogo.png';
 import BudweiserLogo from '../../../assets/images/BudweiserLogo.png';
 import RedBullLogo from '../../../assets/images/RedBullLogo.png';

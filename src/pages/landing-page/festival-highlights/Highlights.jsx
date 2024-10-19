@@ -2,9 +2,9 @@ import React from 'react';
 // import icons
 import { GiSparkles } from "react-icons/gi";
 // import images
-import peopleAtConcert from '../../../../dist/assets/Palm Tombo2-BoxQvVBe.png';
-import boleFish from '../../../../dist/assets/Palm Tombo3-DALehtcz.png';
-import manDrumming from '../../../../dist/assets/pexels-yankrukov-9010079-BnvxeQBY.jpg';
+import peopleAtConcert from '../../../assets/images/Palm Tombo2.png';
+import boleFish from '../../../assets/images/Palm Tombo3.png';
+import manDrumming from '../../../assets/images/pexels-yankrukov-9010079.jpg';
 import SunImage from '../../../assets/images/SunImage.png'
 
 const Highlights = () => {
