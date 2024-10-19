@@ -1,7 +1,7 @@
 import React from 'react'
-import Polygon1 from '../../../../dist/assets/Polygon 1-biGyfELd.png';
-import Polygon2 from '../../../../dist/assets/Polygon 2-6qg1_Zfm.png';
-import Logo from '../../../../dist/assets/TomboLogo-NfsZQvlf.png';
+import Polygon1 from '../../../assets/images/Polygon 1.png';
+import Polygon2 from '../../../assets/images/Polygon 2.png';
+import Logo from '../../../assets/images/TomboLogo.png';
 import Sparkle from '../../../assets/images/Sparkle.png';
 import SunImage from '../../../assets/images/SunImage.png';
 

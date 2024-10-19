@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 // import icons
 import { HiOutlineSparkles } from 'react-icons/hi2';
 import { CiCalendar, CiClock2, CiLocationOn } from "react-icons/ci";
-import Map from './Map';
 // import flyer
-import flyer from '../../../../dist/assets/tombo-fest-flyer-C_yc2ArG.jpg';
+import flyer from '../../..//assets/images/tombo-fest-flyer.jpg';
 
 const TicketInfo = () => {
   // state for tickets
@@ -44,16 +43,19 @@ const TicketInfo = () => {
           {/* map */}
           <div className='flex flex-col gap-5 s:mb-12 sm:mb-12 md:mb-12 lg:mb-0 xl:mb-0'>
             <h3 className='font-semibold text-lg mb-2'>Location On Map</h3>
-            <div className='s:ml-0 sm:ml-0 md:ml-0 lg:ml-2 xl:ml-2 z-40'>
-              <Map/>
-            </div>
+            <iframe 
+            className='w-[100%] s:h-[150px] sm:h-[150px] md:h-[200px] lg:h-[200px] xl:h-[280px] rounded-lg s:ml-0 sm:ml-0 md:ml-0 lg:ml-2 xl:ml-2'
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7951.326158152643!2d6.990746784767743!3d4.827788016722936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cf40a3823d37%3A0x143a766549e649b3!2sPort%20Harcourt%20Polo%20Club!5e0!3m2!1sen!2sng!4v1729269955346!5m2!1sen!2sng" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
         {/* tickets info */}
         <div className='w-full'>
           <div className='flex flex-col gap-2.5'>
             <h3 className='font-semibold text-lg'>Purchase Ticket</h3>
-            <div onClick={() => setIsEarlyBird(true)} className='flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-[10px] rounded-lg hover:cursor-pointer'>
+            <div onClick={() => setIsEarlyBird(true)} className='s:border sm:border md:border flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-[10px] rounded-lg hover:cursor-pointer'>
               {/* package */}
               <div>
                 <p>Early Bird</p>
@@ -62,7 +64,7 @@ const TicketInfo = () => {
               {/* image */}
               <img src={flyer} alt="Early Bird Ticket" className='s:h-[50px] sm:h-[55px] md:h-[60px] lg:h-[70px] xl:h-[70px] rounded-sm' />
             </div>
-            <div onClick={() => setIsRegular(true)} className='flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-[10px] rounded-lg hover:cursor-pointer'>
+            <div onClick={() => setIsRegular(true)} className='s:border sm:border md:border flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-[10px] rounded-lg hover:cursor-pointer'>
               {/* package */}
               <div>
                 <p>Regular</p>
@@ -71,7 +73,7 @@ const TicketInfo = () => {
               {/* image */}
               <img src={flyer} alt="Regular Ticket" className='s:h-[50px] sm:h-[55px] md:h-[60px] lg:h-[70px] xl:h-[70px] rounded-sm' />
             </div>
-            <div onClick={() => setIsVip(true)} className='flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-[10px] rounded-lg hover:cursor-pointer'>
+            <div onClick={() => setIsVip(true)} className='s:border sm:border md:border flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-[10px] rounded-lg hover:cursor-pointer'>
               {/* package */}
               <div>
                 <p>VIP</p>
@@ -80,7 +82,7 @@ const TicketInfo = () => {
               {/* image */}
               <img src={flyer} alt="VIP Ticket" className='s:h-[50px] sm:h-[55px] md:h-[60px] lg:h-[70px] xl:h-[70px] rounded-sm' />
             </div>
-            <div onClick={() => setIsGoldenHut(true)} className='flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-[10px] rounded-lg hover:cursor-pointer'>
+            <div onClick={() => setIsGoldenHut(true)} className='s:border sm:border md:border flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-[10px] rounded-lg hover:cursor-pointer'>
               {/* package */}
               <div>
                 <p>Golden Hut</p>
@@ -89,7 +91,7 @@ const TicketInfo = () => {
               {/* image */}
               <img src={flyer} alt="Golden Hut Ticket" className='s:h-[50px] sm:h-[55px] md:h-[60px] lg:h-[70px] xl:h-[70px] rounded-sm' />
             </div>
-            <div onClick={() => setIsExclusiveHut(true)} className='flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-[10px] rounded-lg hover:cursor-pointer'>
+            <div onClick={() => setIsExclusiveHut(true)} className='s:border sm:border md:border flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-[10px] rounded-lg hover:cursor-pointer'>
               {/* package */}
               <div>
                 <p>Exclusive Hut</p>
