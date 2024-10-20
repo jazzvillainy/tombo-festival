@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import Button from '../Button';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/TomboLogo.png';
+import logo from '/assets/TomboLogo.png';
 // import menu context
 import { MenuContext } from '../../context/MenuContext';
 

@@ -2,10 +2,10 @@ import React from 'react';
 // import icons
 import { GiSparkles } from "react-icons/gi";
 // import images
-import peopleAtConcert from '../../../assets/images/Palm Tombo2.png';
-import boleFish from '../../../assets/images/Palm Tombo3.png';
-import manDrumming from '../../../assets/images/pexels-yankrukov-9010079.jpg';
-import SunImage from '../../../assets/images/SunImage.png'
+import peopleAtConcert from '/assets/Palm Tombo2.png';
+import boleFish from '/assets/Palm Tombo3.png';
+import manDrumming from '/assets/pexels-yankrukov-9010079.jpg';
+import SunImage from '/assets/SunImage.png'
 
 const Highlights = () => {
   return (

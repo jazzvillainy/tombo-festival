@@ -1,9 +1,9 @@
 import React from 'react'
-import Polygon1 from '../../../assets/images/Polygon 1.png';
-import Polygon2 from '../../../assets/images/Polygon 2.png';
-import Logo from '../../../assets/images/TomboLogo.png';
-import Sparkle from '../../../assets/images/Sparkle.png';
-import SunImage from '../../../assets/images/SunImage.png';
+import Polygon1 from '/assets/Polygon 1.png';
+import Polygon2 from '/assets/Polygon 2.png';
+import Logo from '/assets/TomboLogo.png';
+import Sparkle from '/assets/Sparkle.png';
+import SunImage from '/assets/SunImage.png';
 
 const SecondSlide = () => {
   return (
@@ -27,7 +27,7 @@ const SecondSlide = () => {
         <div className='w-full relative'>
             <img className='absolute' src={Sparkle} alt="" />
             <div className='text-9xl relative h-full mt-5 '>
-                <img className='absolute w-[97%] h-[90%] -z-10' src={Polygon1} alt="" />
+                <img className='absolute w-[97%] h-[90%]' src={Polygon1} alt="" />
                 <img className='w-[100%] h-[90%] -z-20' src={Polygon2} alt="" />
                 <img className='absolute top-[70px] right-[100px] -z-10' src={Logo} alt="" />
             </div>
