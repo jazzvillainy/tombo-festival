@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { HiOutlineSparkles } from 'react-icons/hi2';
 import { CiCalendar, CiClock2, CiLocationOn } from "react-icons/ci";
 // import flyer
-import flyer from '../../..//assets/images/tombo-fest-flyer.jpg';
+import flyer from '/assets/tombo-fest-flyer.jpg';
 
 const TicketInfo = () => {
   // state for tickets
