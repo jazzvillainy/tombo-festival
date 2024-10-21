@@ -19,6 +19,7 @@ const LandingPage = () => {
       </div>
       <Highlights/>
       <TicketInfo/>
+      
     </div>
   )
 }
