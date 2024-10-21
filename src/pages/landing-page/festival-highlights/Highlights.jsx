@@ -9,7 +9,7 @@ import manDrumming from '../../../assets/images/pexels-yankrukov-9010079.jpg';
 
 const Highlights = () => {
   return (
-    <div className='flex flex-col md:flex-row mx-auto py-2 my-20'>
+    <div className='flex flex-col md:flex-row mx-auto py-2 my-20' id='highlight'>
       {/* texts */}
       <div className='p-20 w-full flex flex-col gap-10'>
         {/* header */}
